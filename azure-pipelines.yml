@@ -23,7 +23,7 @@ steps:
 - task: AzureLoadTest@1
   inputs:
     azureSubscription: 'POC_Connection'
-    loadTestConfigFile: 'Test_6/21/2022_12:51:05PM'
+    loadTestConfigFile: 'config.yaml'
     resourceGroup: 'POC_ResourceGroup'
     loadTestResource: 'POC_InstanceName'
     #secrets:               # Optional. Array of JSON objects that consist of the name and value for each secret. The name should match the secret name used in the Apache JMeter test script.
