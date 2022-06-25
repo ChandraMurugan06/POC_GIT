@@ -1,5 +1,5 @@
-testName: Sample_Test
-testPlan: Jmeter_Test.jmx
+testName: Jmeter_Test
+testPlan: DemorBlaze_loadtest.jmx
 description: ''
 engineInstances: 1
 splitAllCSVs: False
